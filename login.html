@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco Food</title>
+    <link rel="stylesheet" type="text/css" href="./css/login.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&family=Shippori+Mincho+B1:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="white-background">
+    <header>
+        <h1>
+            <a class="Logo" href="index.html">
+                <img src="img/logo.png" alt="Eco Food">
+            </a>
+        </h1>
+        <a id="show-card" href="#" class="cartLink" data-toggle="modal" data-target="#exampleModal">
+            Cart <i class="fas fa-shopping-basket"></i> (<span id="count">0</span>)
+        </a>
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Catalog</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <a href="index.html" class="button">Go Back</a>
+        <form action="#" method="POST">
+            <div class="container">
+            <label for="uname">User name&ast;</label>
+            <input type="text" placeholder="User name" name="uname" required>
+            <label for="psw">Password&ast;</label>
+            <input type="password"  name="psw" required>
+            <label for="remember"> Remember me</label>
+            <input type="checkbox" checked="checked" name="remember">
+            <button type="submit">Log in</button>
+            </div>
+          </form>
+    </main>
+    <hr>
+    <footer>
+    <section class="section-footer">
+        <article>
+            <h3><i class="fas fa-cubes"></i>Healing with honey</h3>
+            <p>Praesent vestiblum molestie lacus. Aenean nonummy hendrerit.</p>
+        </article>
+        <article>
+            <h3><i class="fas fa-tree"></i>Honey for your</h3>
+            <p>Praesent vestiblum molestie lacus. Aenean nonummy hendrerit.</p>
+        </article>
+        <article>
+            <h3><i class="fab fa-codepen"></i>Honey recipies</h3>
+            <p>Praesent vestiblum molestie lacus. Aenean nonummy hendrerit.</p>
+        </article>
+    </section>
+    <section class="footer-social">
+        <a href="https://www.facebook.com/ecofoodlviv/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+    </section>
+    <p>&copy; All rights reserved</p>
+</footer>
+</div>
+<script defer src="https://use.fontawesome.com/releases/v5.15.2/js/all.js">
+</script>
+</body>
+</html>

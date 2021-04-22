@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+button {
+  cursor: pointer;
+}
+body,
+button,
+input {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+body {
+  background: url(../img/bg.png) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+a,
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  color: #91ac27;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+.white-background {
+  background: white;
+  margin: 10%;
+  padding: 5%;
+}
+header {
+  display: flex;
+  flex-direction: column;
+}
+.logo {
+  display: flex;
+  justify-content: flex-start;
+}
+img {
+  vertical-align: top;
+}
+#show-card {
+  display: flex;
+  justify-content: flex-end;
+}
+#menu {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+#menu > li {
+  padding: 10px 0;
+  margin: 0 10px;
+  border-bottom: 2px solid transparent;
+}
+#menu > li:hover {
+  border-bottom: 2px solid #91ac27;
+  transition: all 0.5s;
+}
+#menu > li:hover > a {
+  color: #91ac27;
+  transition: all 0.5s;
+}
+/*hr {
+    border-bottom: 1px solid;
+    color: grey;
+}*/
+a.button {
+  background: #91ac27;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px 0;
+  transition: all 0.5s;
+  color: white;
+}
+.button:hover {
+  background: green;
+  color: white;
+  transition: all 0.5s;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px 0;
+}
+input {
+  border: 1px solid grey;
+  padding: 10px;
+  margin: 15px 0;
+}
+button {
+  background: #91ac27;
+  padding: 10px 0;
+  margin: 20px 0;
+  color: white;
+}
+button:hover {
+  background: green;
+  transition: all 0.5s;
+}
+section {
+  margin-top: 50px;
+}
+.section-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.section-footer > article {
+  width: 250px;
+}
+h3 {
+  font-size: 22px;
+  margin: 10px 0;
+}
+.footer-social > a {
+  display: block;
+  border-radius: 50%;
+  border: 20px solid black;
+  background: black;
+  color: white;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  margin: 10px;
+  transition: 0.5s all;
+}
+.footer-social > a:hover {
+  background-color: #91ac27;
+  border-color: #91ac27;
+  transition: 0.5s all;
+}
+.footer-social {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+footer > p {
+  text-align: center;
+}
